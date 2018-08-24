@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdataPassword</servlet-name>
+    <servlet-class>servlet.UpdataPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDataShow</servlet-name>
+    <servlet-class>servlet.UserDataShow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlterNickNameServlet</servlet-name>
+    <servlet-class>servlet.AlterNickNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlterNickTouXiangServlet</servlet-name>
+    <servlet-class>servlet.AlterNickTouXiangServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlterNickSexServlet</servlet-name>
+    <servlet-class>servlet.AlterNickSexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlterNickAgeServlet</servlet-name>
+    <servlet-class>servlet.AlterNickAgeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlterNickIdentityServlet</servlet-name>
+    <servlet-class>servlet.AlterNickIdentityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlterNickProfileServlet</servlet-name>
+    <servlet-class>servlet.AlterNickProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadImageServlet</servlet-name>
+    <servlet-class>servlet.UploadImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Postshuoshuo</servlet-name>
+    <servlet-class>servlet.Postshuoshuo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetShuoshuo</servlet-name>
+    <servlet-class>servlet.GetShuoshuo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostShuoshuoReply</servlet-name>
+    <servlet-class>servlet.PostShuoshuoReply</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PoseShuoshuoReply</servlet-name>
+    <servlet-class>servlet.PoseShuoshuoReply</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetShsuoshuoReply</servlet-name>
+    <servlet-class>servlet.GetShsuoshuoReply</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetListChat</servlet-name>
+    <servlet-class>servlet.GetListChat</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteChat</servlet-name>
+    <servlet-class>servlet.DeleteChat</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetChatMassagesServlet</servlet-name>
+    <servlet-class>servlet.GetChatMassagesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostChatMessageServlet</servlet-name>
+    <servlet-class>servlet.PostChatMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetWhetherMessageServlet</servlet-name>
+    <servlet-class>servlet.GetWhetherMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetMessageReadedSerlvet</servlet-name>
+    <servlet-class>servlet.SetMessageReadedSerlvet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetMassageReaded</servlet-name>
+    <servlet-class>servlet.SetMassageReaded</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addChatSerlvet</servlet-name>
+    <servlet-class>servlet.addChatSerlvet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getMsgNotReadedNumSerlvet</servlet-name>
+    <servlet-class>servlet.getMsgNotReadedNumSerlvet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAllUserDataSerlvet</servlet-name>
+    <servlet-class>servlet.getAllUserDataSerlvet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XueyaAllSerlvet</servlet-name>
+    <servlet-class>servlet.XueyaAllSerlvet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdataPassword</servlet-name>
+    <url-pattern>/UpdataPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDataShow</servlet-name>
+    <url-pattern>/UserDataShow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterNickNameServlet</servlet-name>
+    <url-pattern>/AlterNickNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterNickTouXiangServlet</servlet-name>
+    <url-pattern>/AlterNickTouXiangServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterNickSexServlet</servlet-name>
+    <url-pattern>/AlterNickSexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterNickAgeServlet</servlet-name>
+    <url-pattern>/AlterNickAgeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterNickIdentityServlet</servlet-name>
+    <url-pattern>/AlterNickIdentityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterNickProfileServlet</servlet-name>
+    <url-pattern>/AlterNickProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadImageServlet</servlet-name>
+    <url-pattern>/UploadImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Postshuoshuo</servlet-name>
+    <url-pattern>/Postshuoshuo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetShuoshuo</servlet-name>
+    <url-pattern>/GetShuoshuo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostShuoshuoReply</servlet-name>
+    <url-pattern>/PostShuoshuoReply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PoseShuoshuoReply</servlet-name>
+    <url-pattern>/PoseShuoshuoReply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetShsuoshuoReply</servlet-name>
+    <url-pattern>/GetShsuoshuoReply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetListChat</servlet-name>
+    <url-pattern>/GetListChat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteChat</servlet-name>
+    <url-pattern>/DeleteChat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetChatMassagesServlet</servlet-name>
+    <url-pattern>/GetChatMassagesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostChatMessageServlet</servlet-name>
+    <url-pattern>/PostChatMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetWhetherMessageServlet</servlet-name>
+    <url-pattern>/GetWhetherMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetMessageReadedSerlvet</servlet-name>
+    <url-pattern>/SetMessageReadedSerlvet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetMassageReaded</servlet-name>
+    <url-pattern>/SetMassageReaded</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addChatSerlvet</servlet-name>
+    <url-pattern>/addChatSerlvet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getMsgNotReadedNumSerlvet</servlet-name>
+    <url-pattern>/getMsgNotReadedNumSerlvet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAllUserDataSerlvet</servlet-name>
+    <url-pattern>/getAllUserDataSerlvet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XueyaAllSerlvet</servlet-name>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
